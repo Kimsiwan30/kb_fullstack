@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        width: 100px;
+        height: 100px;
+      }
+
+      .blue {
+        background-color: blue;
+      }
+
+      .beige {
+        background-color: beige;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box beige">Box!!</div>
+    <script>
+      const boxEl = document.querySelector('.box');
+
+      boxEl.addEventListener('click', function () {
+        if (boxEl.classList.contains('beige')) {
+          boxEl.classList.remove('beige');
+          boxEl.classList.add('blue');
+        } else {
+          boxEl.classList.remove('blue');
+          boxEl.classList.add('beige');
+        }
+      });
+    </script>
+  </body>
+</html>
