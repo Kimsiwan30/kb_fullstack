@@ -1,0 +1,32 @@
+{
+  "todos": [
+    {
+      "id": "1",
+      "todo": "백엔드",
+      "desc": "잘하기",
+      "done": true
+    },
+    {
+      "id": "2",
+      "todo": "로그인",
+      "desc": "구현하기",
+      "done": true
+    },
+    {
+      "id": "3",
+      "todo": "공부",
+      "desc": "하기",
+      "done": true
+    }
+  ],
+  "users": [
+    {
+      "id": "12",
+      "password": "1234"
+    },
+    {
+      "id": "xenosign",
+      "password": "1234"
+    }
+  ]
+}
