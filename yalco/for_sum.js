@@ -55,6 +55,6 @@ for (let i = 1; i <= 100; i++) {
     sevens = sevens + i;
   }
 }
-console.log(twos);
-console.log(fives);
-console.log(sevens);
+console.log(`2의 배수의 합 : ${twos}`);
+console.log(`5의 배수의 합 : ${fives}`);
+console.log(`7의 배수의 합 : ${sevens}`);
