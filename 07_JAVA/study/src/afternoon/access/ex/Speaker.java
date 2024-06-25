@@ -11,7 +11,7 @@ public class Speaker {
 
     public void volumeUp(){
         if(this.volume < 100){                              //MAX_VOLUME
-            this.volume++;
+            this.volume++;  //this.volume = this.volume + 1;
             printVoulume();
         } else {
             //System.out.println("더 이상 볼륨 조절이 불가능");
