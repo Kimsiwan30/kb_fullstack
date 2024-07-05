@@ -1,4 +1,4 @@
-package codingTest;
+package codingTest.일주차;
 
 class Solution2 {
     public int solution(int[] nums) {

@@ -1,4 +1,4 @@
-package codingTest;
+package codingTest.일주차;
 
 import java.util.Arrays;
 
