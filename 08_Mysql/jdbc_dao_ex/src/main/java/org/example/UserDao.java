@@ -124,7 +124,7 @@ public class UserDao {
     }
 
     public void join(){
-        String sql ="select users.id, users.email, users.password"
+        String sql ="select users.id, users.email, users.password";
 
     }
 

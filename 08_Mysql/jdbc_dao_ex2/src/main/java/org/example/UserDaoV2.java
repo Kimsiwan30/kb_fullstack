@@ -78,6 +78,8 @@ public class UserDaoV2 {
             // 5. 자원 해제
             rs.close();
             stmt.close();
+
+
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -90,10 +92,10 @@ public class UserDaoV2 {
     }
 
 
-    public void close(){
+    public void close() {
         try {
             conn.close();
-        }catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
         }
 
