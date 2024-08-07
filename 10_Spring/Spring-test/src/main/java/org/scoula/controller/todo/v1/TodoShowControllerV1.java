@@ -1,4 +1,4 @@
-package org.scoula.controller.todo;
+package org.scoula.controller.todo.v1;
 
 import lombok.extern.slf4j.Slf4j;
 import org.scoula.dto.todo.TodoDtoListV1;

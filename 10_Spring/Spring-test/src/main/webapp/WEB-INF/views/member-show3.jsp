@@ -7,11 +7,11 @@
 </head>
 <body>
 <%@ include file="header.jsp"%>
-<h1>Todo 목록</h1>
+<h1>회원 목록 V3</h1>
 <ul>
-    <li><b>할 일</b></li>
-    <c:forEach var="todo" items="${todoDtoList}">
-        <li>${todo.todo}</li>
+    <li><b>ID - Name</b></li>
+    <c:forEach var="member" items="${memberList}">
+        <li>${member.id} - ${member.name}</li>
     </c:forEach>
 </ul>
 </body>

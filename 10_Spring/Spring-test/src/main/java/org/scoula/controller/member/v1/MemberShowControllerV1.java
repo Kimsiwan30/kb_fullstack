@@ -1,4 +1,4 @@
-package org.scoula.controller.member;
+package org.scoula.controller.member.v1;
 
 import lombok.extern.slf4j.Slf4j;
 import org.scoula.dto.member.MemberDtoListV1;
