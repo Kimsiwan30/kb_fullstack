@@ -25,4 +25,5 @@ public class MemberShowControllerV2 {
         model.addAttribute("memberList", memberList.getList());
         return "member-show2";
     }
+
 }
