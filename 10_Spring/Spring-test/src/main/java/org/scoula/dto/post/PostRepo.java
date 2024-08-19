@@ -18,6 +18,28 @@ public class PostRepo {
     public List<PostDto> findByCondition(String title, String content){
         return postMapper.findByCondition(title, content);
     }
+
+    // 게시글을 id 로 조회 -> 게시글 수정에서 사용
+    public PostDto findById(Long id) {
+        return postMapper.findById(id);
+    }
+
+    // 게시글 삭제
+    public int delete(Long id) {
+        return postMapper.delete(id);
+    }
+
+    // 게시글 추가
+    public int save(String title, String content) {
+        return postMapper.save(title, content);
+    }
+
+    // 게시글 수정
+    public int update(Long id, String title, String content) {
+        return postMapper.update(id, title, content);
+    }
+
+
 }
 
 
