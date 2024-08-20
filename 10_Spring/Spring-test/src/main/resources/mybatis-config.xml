@@ -12,5 +12,6 @@
         <typeAlias alias="BoardDto" type="org.scoula.dto.board.BoardDto" />
         <typeAlias alias="SiwanDto" type="org.scoula.dto.siwan.SiwanDto" />
         <typeAlias alias="SiwanDto2" type="org.scoula.dto.siwan.SiwanDto2" />
+        <typeAlias alias="BookMybatis" type="org.scoula.domain.BookMybatis" />
     </typeAliases>
 </configuration>

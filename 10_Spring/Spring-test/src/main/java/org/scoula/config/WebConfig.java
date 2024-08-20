@@ -10,7 +10,7 @@ import javax.servlet.ServletRegistration;
 public class WebConfig extends AbstractAnnotationConfigDispatcherServletInitializer {
     @Override
     protected Class<?>[] getRootConfigClasses() {
-        return new Class[] { org.scoula.config.RootConfig.class };
+        return new Class[] { org.scoula.config.RootConfig.class, JpaConfig.class };
     }
 
     @Override

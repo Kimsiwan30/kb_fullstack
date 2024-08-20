@@ -16,4 +16,8 @@ public class SiwanRepo {
     public List<SiwanDto> findAll(){
         return siwanMapper.findAll();
     }
+
+    public SiwanDto findById(Long id) {
+        return siwanMapper.findById(id);
+    }
 }
