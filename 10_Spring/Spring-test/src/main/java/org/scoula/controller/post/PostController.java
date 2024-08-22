@@ -64,4 +64,5 @@ public class PostController {
         throw new RuntimeException("의도적으로 발생시킨 예외");
     }
 
+
 }
