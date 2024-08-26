@@ -10,5 +10,6 @@ import java.util.List;
 public interface StudentMapper {
     public List<StudentMybatis> findAll();
     public StudentMybatis findByNumber(Long number);
-    public String saveStudent(StudentMybatis student);
+    public int save(StudentMybatis student);
+    public int delete(Long number);
 }

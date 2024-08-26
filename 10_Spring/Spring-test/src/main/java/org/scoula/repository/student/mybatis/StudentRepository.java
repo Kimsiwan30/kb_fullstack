@@ -18,7 +18,11 @@ public class StudentRepository {
     public StudentMybatis findByNumber(Long number){
         return studentMapper.findByNumber(number);
     }
-    public String saveStudent(StudentMybatis student){
-        return studentMapper.saveStudent(student);
+    public int saveStudent(StudentMybatis student){
+        return studentMapper.save(student);
+    }
+
+    public int deleteStudent(Long number){
+        return studentMapper.delete(number);
     }
 }

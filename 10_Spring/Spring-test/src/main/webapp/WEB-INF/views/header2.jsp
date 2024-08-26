@@ -7,4 +7,9 @@
     <a href="/siwan/v1/show2">시완2 페이지</a>
     <a href="/post/v1/404">404</a>
     <a href="/post/v1/error">ERROR</a>
+    <h3>회원 기능</h3>
+    <a href="/user/register">회원 가입</a>
+    <a href="/user/login">로그인</a>
+    <a href="/user/logout">로그아웃</a>
+    <a href="/user/admin">admin</a>
 </header>

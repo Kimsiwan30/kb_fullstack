@@ -18,7 +18,7 @@ public class JpaBookRepository {
     private final EntityManager em;
 
 
-    public List<org.scoula.domain.Book> findAll() {
+    public List<Book> findAll() {
         String jpql = "SELECT b FROM Book b";
         List<Book> bookList = em.createQuery(jpql, Book.class).getResultList();
         return bookList;
