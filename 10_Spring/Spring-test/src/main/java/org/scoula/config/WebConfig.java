@@ -1,6 +1,7 @@
 package org.scoula.config;
 
 import org.scoula.security.UserConfig;
+import org.scoula.security.config.SecurityConfig;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
 import org.springframework.web.context.WebApplicationContext;
@@ -11,11 +12,12 @@ import javax.servlet.Filter;
 import javax.servlet.ServletRegistration;
 
 @Configuration
-@Import(UserConfig.class)
+//@Import(UserConfig.class)
+@Import(SecurityConfig.class)
 public class WebConfig extends AbstractAnnotationConfigDispatcherServletInitializer {
     @Override
     protected Class<?>[] getRootConfigClasses() {
-        return new Class[] { org.scoula.config.RootConfig.class, JpaConfig.class };
+        return new Class[] { RootConfig.class, JpaConfig.class };
     }
 
     @Override
